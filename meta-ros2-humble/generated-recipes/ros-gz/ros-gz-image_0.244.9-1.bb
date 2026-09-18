@@ -68,7 +68,7 @@ RDEPENDS:${PN} += "${ROS_EXEC_DEPENDS}"
 ROS_BRANCH ?= "branch=release/humble/ros_gz_image"
 SRC_URI = "git://github.com/ros2-gbp/ros_ign-release;${ROS_BRANCH};protocol=https"
 SRCREV = "b3ed46da3b07cf42d586fc5029f232817945718c"
-S = "${WORKDIR}/git"
+S = "${UNPACKDIR}/git"
 
 ROS_BUILD_TYPE = "ament_cmake"
 

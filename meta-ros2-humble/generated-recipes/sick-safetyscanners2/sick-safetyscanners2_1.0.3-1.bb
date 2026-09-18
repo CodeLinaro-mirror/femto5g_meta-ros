@@ -66,7 +66,7 @@ RDEPENDS:${PN} += "${ROS_EXEC_DEPENDS}"
 ROS_BRANCH ?= "branch=release/humble/sick_safetyscanners2"
 SRC_URI = "git://github.com/SICKAG/sick_safetyscanners2-release;${ROS_BRANCH};protocol=https"
 SRCREV = "2834f96b35e26dde8b6edb5fe7edf639a8c1a977"
-S = "${WORKDIR}/git"
+S = "${UNPACKDIR}/git"
 
 ROS_BUILD_TYPE = "ament_cmake"
 

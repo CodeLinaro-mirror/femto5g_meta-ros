@@ -85,7 +85,7 @@ RDEPENDS:${PN} += "${ROS_EXEC_DEPENDS}"
 ROS_BRANCH ?= "branch=release/humble/nav2_map_server"
 SRC_URI = "git://github.com/SteveMacenski/navigation2-release;${ROS_BRANCH};protocol=https"
 SRCREV = "20289481a022686550a7cae463fc6ce066d34f45"
-S = "${WORKDIR}/git"
+S = "${UNPACKDIR}/git"
 
 ROS_BUILD_TYPE = "ament_cmake"
 

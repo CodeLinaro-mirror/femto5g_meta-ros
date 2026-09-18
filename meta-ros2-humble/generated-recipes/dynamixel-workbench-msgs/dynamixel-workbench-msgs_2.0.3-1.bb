@@ -54,7 +54,7 @@ RDEPENDS:${PN} += "${ROS_EXEC_DEPENDS}"
 ROS_BRANCH ?= "branch=release/humble/dynamixel_workbench_msgs"
 SRC_URI = "git://github.com/ros2-gbp/dynamixel_workbench_msgs-release;${ROS_BRANCH};protocol=https"
 SRCREV = "1f0195e5668ee85a8d8c37dd55f1e54cd140cff7"
-S = "${WORKDIR}/git"
+S = "${UNPACKDIR}/git"
 
 ROS_BUILD_TYPE = "ament_cmake"
 

@@ -63,7 +63,7 @@ RDEPENDS:${PN} += "${ROS_EXEC_DEPENDS}"
 
 SRC_URI = "git://github.com/ros2/domain_bridge;branch=humble;protocol=https"
 SRCREV = "f4311f668a1da12545db3e1e37a593ca847d0110"
-S = "${WORKDIR}/git/"
+S = "${UNPACKDIR}/git/"
 
 ROS_BUILD_TYPE = "ament_cmake"
 

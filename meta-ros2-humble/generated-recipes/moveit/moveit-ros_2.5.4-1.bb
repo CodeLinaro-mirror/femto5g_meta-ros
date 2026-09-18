@@ -53,7 +53,7 @@ RDEPENDS:${PN} += "${ROS_EXEC_DEPENDS}"
 ROS_BRANCH ?= "branch=release/humble/moveit_ros"
 SRC_URI = "git://github.com/moveit/moveit2-release;${ROS_BRANCH};protocol=https"
 SRCREV = "edff935949f97eb09194924f180a7143ed52db69"
-S = "${WORKDIR}/git"
+S = "${UNPACKDIR}/git"
 
 ROS_BUILD_TYPE = "ament_cmake"
 

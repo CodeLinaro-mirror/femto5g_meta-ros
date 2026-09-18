@@ -14,7 +14,7 @@ SRC_URI = "git://github.com/modelon-community/fmi-library;branch=master;protocol
     file://0001-fmixml-use-system-expat-instead-of-building-own-with.patch \
 "
 
-S = "${WORKDIR}/git"
+S = "${UNPACKDIR}/git"
 
 inherit cmake pkgconfig
 

@@ -41,7 +41,7 @@ RDEPENDS:${PN} += "${ROS_EXEC_DEPENDS}"
 ROS_BRANCH ?= "branch=release/humble/ament_download"
 SRC_URI = "git://github.com/samsung-ros/ament_download-release;${ROS_BRANCH};protocol=https"
 SRCREV = "5ba55f0a786b9a53b508396ccc70c417df56b665"
-S = "${WORKDIR}/git"
+S = "${UNPACKDIR}/git"
 
 ROS_BUILD_TYPE = "ament_cmake"
 

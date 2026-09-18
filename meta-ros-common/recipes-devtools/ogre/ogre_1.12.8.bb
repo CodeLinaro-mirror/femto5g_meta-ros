@@ -12,7 +12,7 @@ SRC_URI = "git://github.com/OGRECave/ogre;protocol=https;branch=master \
     file://0001-CMakeLists.txt-don-t-set-RPATH.patch \
 "
 
-S = "${WORKDIR}/git"
+S = "${UNPACKDIR}/git"
 
 inherit cmake features_check
 

@@ -16,6 +16,6 @@ inherit setuptools3
 #  ${PYTHON_PN}-unittest \
 #  "
 
-S = "${WORKDIR}/git"
+S = "${UNPACKDIR}/git"
 
 BBCLASSEXTEND = "native nativesdk"

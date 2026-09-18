@@ -13,7 +13,7 @@ DEPENDS = " \
     lapack \
 "
 
-S = "${WORKDIR}/SuiteSparse/SPQR"
+S = "${UNPACKDIR}/SuiteSparse/SPQR"
 
 EXTRA_OEMAKE = "CC='${CC}' BLAS='-lblas'"
 

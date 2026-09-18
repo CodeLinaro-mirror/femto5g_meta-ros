@@ -63,7 +63,7 @@ RDEPENDS:${PN} += "${ROS_EXEC_DEPENDS}"
 ROS_BRANCH ?= "branch=release/humble/simple_actions"
 SRC_URI = "git://github.com/DLu/simple_actions-release;${ROS_BRANCH};protocol=https"
 SRCREV = "9d4df83e75834c125bebd9acd7418c77ef2b3459"
-S = "${WORKDIR}/git"
+S = "${UNPACKDIR}/git"
 
 ROS_BUILD_TYPE = "ament_cmake"
 

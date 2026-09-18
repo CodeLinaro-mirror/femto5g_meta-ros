@@ -50,7 +50,7 @@ RDEPENDS:${PN} += "${ROS_EXEC_DEPENDS}"
 ROS_BRANCH ?= "branch=release/humble/rcgcd_spl_14"
 SRC_URI = "git://github.com/ros2-gbp/gc_spl-release;${ROS_BRANCH};protocol=https"
 SRCREV = "0aeecf8bce7fb60d20a903ea7df04c78345b5d2a"
-S = "${WORKDIR}/git"
+S = "${UNPACKDIR}/git"
 
 ROS_BUILD_TYPE = "ament_cmake"
 

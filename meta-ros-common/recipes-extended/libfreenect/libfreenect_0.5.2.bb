@@ -8,7 +8,7 @@ SRCREV = "10a80abf425975e66b23898fdfa907a937e2391a"
 ROS_BRANCH ?= "branch=master"
 SRC_URI = "git://github.com/OpenKinect/libfreenect;${ROS_BRANCH};protocol=https"
 
-S = "${WORKDIR}/git"
+S = "${UNPACKDIR}/git"
 
 inherit cmake
 

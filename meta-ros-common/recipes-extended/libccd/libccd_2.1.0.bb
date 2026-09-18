@@ -7,7 +7,7 @@ SRCREV = "7931e764a19ef6b21b443376c699bbc9c6d4fba8"
 ROS_BRANCH ?= "branch=master"
 SRC_URI = "git://github.com/danfis/libccd;${ROS_BRANCH};protocol=https"
 
-S = "${WORKDIR}/git"
+S = "${UNPACKDIR}/git"
 
 EXTRA_OECMAKE += "-DCMAKE_BUILD_TYPE=Release -DCCD_DOUBLE=1"
 

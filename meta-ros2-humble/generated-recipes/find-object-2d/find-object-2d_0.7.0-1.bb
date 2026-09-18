@@ -79,7 +79,7 @@ RDEPENDS:${PN} += "${ROS_EXEC_DEPENDS}"
 ROS_BRANCH ?= "branch=release/humble/find_object_2d"
 SRC_URI = "git://github.com/introlab/find_object_2d-release;${ROS_BRANCH};protocol=https"
 SRCREV = "8b362c3804320e10ccb31beccc1d17919f22ebda"
-S = "${WORKDIR}/git"
+S = "${UNPACKDIR}/git"
 
 ROS_BUILD_TYPE = "ament_cmake"
 

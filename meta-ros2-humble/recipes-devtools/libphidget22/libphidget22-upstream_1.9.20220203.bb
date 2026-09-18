@@ -16,7 +16,7 @@ SRCNAME = "libphidget22"
 SRC_URI = "https://www.phidgets.com/downloads/phidget22/libraries/linux/${SRCNAME}/${SRCNAME}-${PV}.tar.gz \
     https://raw.githubusercontent.com/ros2-gbp/phidgets_drivers-release/release/humble/libphidget22/patch/libphidget22-1.9.20220203-fix-warnings.patch;name=patch \
 "
-S = "${WORKDIR}/${SRCNAME}-${PV}"
+S = "${UNPACKDIR}/${SRCNAME}-${PV}"
 
 SRC_URI[sha256sum] = "089d590bbc9dad9cc4b190a1acab96838fdddb4afab3315679009cb622852e06"
 SRC_URI[patch.sha256sum] = "28ac732e72da543291b5fe6b7a6914752cde9c4774b83e943a46c2dab9546468"

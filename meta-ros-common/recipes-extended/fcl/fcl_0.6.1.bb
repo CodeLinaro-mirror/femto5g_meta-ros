@@ -12,7 +12,7 @@ SRC_URI = " \
     git://github.com/flexible-collision-library/fcl;${ROS_BRANCH};protocol=https \
 "
 
-S = "${WORKDIR}/git"
+S = "${UNPACKDIR}/git"
 
 EXTRA_OECMAKE += "-DCMAKE_BUILD_TYPE=Release -DFCL_NO_DEFAULT_RPATH=OFF ${EXTRA_OECMAKE_SSE}"
 EXTRA_OECMAKE_SSE = "-DFCL_USE_X64_SSE=OFF"

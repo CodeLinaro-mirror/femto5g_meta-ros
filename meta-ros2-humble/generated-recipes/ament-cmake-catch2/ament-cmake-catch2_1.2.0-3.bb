@@ -45,7 +45,7 @@ RDEPENDS:${PN} += "${ROS_EXEC_DEPENDS}"
 ROS_BRANCH ?= "branch=release/humble/ament_cmake_catch2"
 SRC_URI = "git://github.com/ros2-gbp/ament_cmake_catch2-release;${ROS_BRANCH};protocol=https"
 SRCREV = "ced2e1c504e02e438b6687794e6ee6475ed2c124"
-S = "${WORKDIR}/git"
+S = "${UNPACKDIR}/git"
 
 ROS_BUILD_TYPE = "ament_cmake"
 

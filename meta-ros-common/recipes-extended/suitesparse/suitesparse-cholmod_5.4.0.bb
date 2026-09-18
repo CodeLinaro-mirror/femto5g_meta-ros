@@ -16,7 +16,7 @@ DEPENDS = " \
     openblas \
 "
 
-S = "${WORKDIR}/SuiteSparse/CHOLMOD"
+S = "${UNPACKDIR}/SuiteSparse/CHOLMOD"
 
 EXTRA_OEMAKE = "CC='${CC}' BLAS='-lblas'"
 

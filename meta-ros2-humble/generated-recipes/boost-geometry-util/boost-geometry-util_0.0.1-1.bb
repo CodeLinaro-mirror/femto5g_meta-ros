@@ -59,7 +59,7 @@ RDEPENDS:${PN} += "${ROS_EXEC_DEPENDS}"
 ROS_BRANCH ?= "branch=release/humble/boost_geometry_util"
 SRC_URI = "git://github.com/OUXT-Polaris/boost_geometry_util-release;${ROS_BRANCH};protocol=https"
 SRCREV = "d6506ae2c617ff7885a07cdeddb61e6dbf21fccd"
-S = "${WORKDIR}/git"
+S = "${UNPACKDIR}/git"
 
 ROS_BUILD_TYPE = "ament_cmake"
 

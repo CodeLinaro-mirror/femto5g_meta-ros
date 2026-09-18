@@ -8,7 +8,7 @@ HOMEPAGE = "http://logging.apache.org/log4cxx/"
 SRC_URI = "git://git-wip-us.apache.org/repos/asf/logging-log4cxx.git;protocol=https;branch=master"
 SRCREV = "03c581216a469eb2bc5cabaa686199504d257af0"
 
-S = "${WORKDIR}/git"
+S = "${UNPACKDIR}/git"
 
 inherit autotools-brokensep pkgconfig
 

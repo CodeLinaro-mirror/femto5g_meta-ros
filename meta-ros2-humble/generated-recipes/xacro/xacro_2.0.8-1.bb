@@ -55,7 +55,7 @@ RDEPENDS:${PN} += "${ROS_EXEC_DEPENDS}"
 ROS_BRANCH ?= "branch=release/humble/xacro"
 SRC_URI = "git://github.com/ros2-gbp/xacro-release;${ROS_BRANCH};protocol=https"
 SRCREV = "f8020d99fdcc9815acc2cd4d93886b4e0a44805d"
-S = "${WORKDIR}/git"
+S = "${UNPACKDIR}/git"
 
 ROS_BUILD_TYPE = "ament_cmake"
 

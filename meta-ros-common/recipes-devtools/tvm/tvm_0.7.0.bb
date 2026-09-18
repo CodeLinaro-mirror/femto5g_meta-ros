@@ -20,7 +20,7 @@ SRC_URI = "git://github.com/apache/tvm;branch=main;protocol=https \
     git://github.com/apache/incubator-tvm-vta;name=vta-hw;destsuffix=git/3rdparty/vta-hw;branch=master;protocol=https \
 "
 
-S = "${WORKDIR}/git"
+S = "${UNPACKDIR}/git"
 
 inherit cmake
 

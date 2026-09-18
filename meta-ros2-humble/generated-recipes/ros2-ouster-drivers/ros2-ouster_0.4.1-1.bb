@@ -95,7 +95,7 @@ RDEPENDS:${PN} += "${ROS_EXEC_DEPENDS}"
 ROS_BRANCH ?= "branch=release/humble/ros2_ouster"
 SRC_URI = "git://github.com/ros2-gbp/ros2_ouster_drivers-release;${ROS_BRANCH};protocol=https"
 SRCREV = "6b3e3f31432f3826854f159bb52464ad255c4bd0"
-S = "${WORKDIR}/git"
+S = "${UNPACKDIR}/git"
 
 ROS_BUILD_TYPE = "ament_cmake"
 

@@ -52,7 +52,7 @@ RDEPENDS:${PN} += "${ROS_EXEC_DEPENDS}"
 ROS_BRANCH ?= "branch=release/humble/udp_msgs"
 SRC_URI = "git://github.com/ros2-gbp/udp_msgs-release;${ROS_BRANCH};protocol=https"
 SRCREV = "382878b5c8f3656db0b25d3fb053466bfb21e512"
-S = "${WORKDIR}/git"
+S = "${UNPACKDIR}/git"
 
 ROS_BUILD_TYPE = "ament_cmake"
 

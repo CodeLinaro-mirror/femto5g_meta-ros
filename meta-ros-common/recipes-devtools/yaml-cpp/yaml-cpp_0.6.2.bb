@@ -6,7 +6,7 @@ LIC_FILES_CHKSUM = "file://LICENSE;md5=6a8aaf0595c2efc1a9c2e0913e9c1a2c"
 
 PR = "r0"
 
-S = "${WORKDIR}/git"
+S = "${UNPACKDIR}/git"
 
 SRC_URI = "git://github.com/jbeder/${BPN}.git;branch=master;protocol=https"
 SRCREV = "562aefc114938e388457e6a531ed7b54d9dc1b62"

@@ -41,7 +41,7 @@ RDEPENDS:${PN} += "${ROS_EXEC_DEPENDS}"
 
 SRC_URI = "git://github.com/osrf/negotiated;branch=master;protocol=https"
 SRCREV = "eac198b55dcd052af5988f0f174902913c5f20e7"
-S = "${WORKDIR}/git/negotiated_interfaces"
+S = "${UNPACKDIR}/git/negotiated_interfaces"
 
 ROS_BUILD_TYPE = "ament_cmake"
 

@@ -66,7 +66,7 @@ RDEPENDS:${PN} += "${ROS_EXEC_DEPENDS}"
 ROS_BRANCH ?= "branch=release/humble/system_fingerprint"
 SRC_URI = "git://github.com/MetroRobots/ros_system_fingerprint-release;${ROS_BRANCH};protocol=https"
 SRCREV = "d75b8a333edcb33d91834fb43687da70380a5850"
-S = "${WORKDIR}/git"
+S = "${UNPACKDIR}/git"
 
 ROS_BUILD_TYPE = "ament_python"
 

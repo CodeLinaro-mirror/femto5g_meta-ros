@@ -55,7 +55,7 @@ RDEPENDS:${PN} += "${ROS_EXEC_DEPENDS}"
 ROS_BRANCH ?= "branch=release/humble/mrt_cmake_modules"
 SRC_URI = "git://github.com/ros2-gbp/mrt_cmake_modules-release;${ROS_BRANCH};protocol=https"
 SRCREV = "c8b3b8ca2e9dc8ab25060fc3ba1ab3948cc0ca27"
-S = "${WORKDIR}/git"
+S = "${UNPACKDIR}/git"
 
 ROS_BUILD_TYPE = "ament_cmake"
 

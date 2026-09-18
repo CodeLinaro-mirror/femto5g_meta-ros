@@ -43,4 +43,4 @@ SRC_URI = " \
     file://cppcheck.sca.description \
 "
 
-S = "${WORKDIR}/git"
+S = "${UNPACKDIR}/git"

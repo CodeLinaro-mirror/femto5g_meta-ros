@@ -44,7 +44,7 @@ RDEPENDS:${PN} += "${ROS_EXEC_DEPENDS}"
 ROS_BRANCH ?= "branch=release/humble/tl_expected"
 SRC_URI = "git://github.com/PickNikRobotics/cpp_polyfills-release;${ROS_BRANCH};protocol=https"
 SRCREV = "4d64069da1a3287b5829bc2fc16b3e0e69106cd4"
-S = "${WORKDIR}/git"
+S = "${UNPACKDIR}/git"
 
 ROS_BUILD_TYPE = "ament_cmake"
 

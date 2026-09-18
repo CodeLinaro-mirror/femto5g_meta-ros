@@ -62,7 +62,7 @@ RDEPENDS:${PN} += "${ROS_EXEC_DEPENDS}"
 ROS_BRANCH ?= "branch=release/humble/rclcpp_cascade_lifecycle"
 SRC_URI = "git://github.com/fmrico/cascade_lifecycle-release;${ROS_BRANCH};protocol=https"
 SRCREV = "1987b9516f51fba9912ddb5aae874dfa9b32543d"
-S = "${WORKDIR}/git"
+S = "${UNPACKDIR}/git"
 
 ROS_BUILD_TYPE = "ament_cmake"
 

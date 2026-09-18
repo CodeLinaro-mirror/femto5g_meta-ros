@@ -46,7 +46,7 @@ RDEPENDS:${PN} += "${ROS_EXEC_DEPENDS}"
 ROS_BRANCH ?= "branch=release/humble/sophus"
 SRC_URI = "git://github.com/yujinrobot-release/sophus-release;${ROS_BRANCH};protocol=https"
 SRCREV = "1f5f87bfdbe83da08a6331fc6e85fddb55e3e358"
-S = "${WORKDIR}/git"
+S = "${UNPACKDIR}/git"
 
 ROS_BUILD_TYPE = "cmake"
 

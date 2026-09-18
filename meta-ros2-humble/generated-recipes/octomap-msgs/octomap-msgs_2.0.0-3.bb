@@ -54,7 +54,7 @@ RDEPENDS:${PN} += "${ROS_EXEC_DEPENDS}"
 ROS_BRANCH ?= "branch=release/humble/octomap_msgs"
 SRC_URI = "git://github.com/ros2-gbp/octomap_msgs-release;${ROS_BRANCH};protocol=https"
 SRCREV = "47ee915519d7ba2baa8f0f2044eaa2a16401b644"
-S = "${WORKDIR}/git"
+S = "${UNPACKDIR}/git"
 
 ROS_BUILD_TYPE = "ament_cmake"
 

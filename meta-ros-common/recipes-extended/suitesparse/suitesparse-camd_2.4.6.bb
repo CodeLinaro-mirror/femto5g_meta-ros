@@ -9,7 +9,7 @@ DEPENDS = " \
     suitesparse-config \
 "
 
-S = "${WORKDIR}/SuiteSparse/CAMD"
+S = "${UNPACKDIR}/SuiteSparse/CAMD"
 
 EXTRA_OEMAKE = "CC='${CC}'"
 

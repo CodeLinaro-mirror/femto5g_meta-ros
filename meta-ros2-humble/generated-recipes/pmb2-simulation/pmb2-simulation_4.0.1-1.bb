@@ -49,7 +49,7 @@ RDEPENDS:${PN} += "${ROS_EXEC_DEPENDS}"
 ROS_BRANCH ?= "branch=release/humble/pmb2_simulation"
 SRC_URI = "git://github.com/pal-gbp/pmb2_simulation-release;${ROS_BRANCH};protocol=https"
 SRCREV = "088ebf9eca3561c20015facd9febc5a016d6908c"
-S = "${WORKDIR}/git"
+S = "${UNPACKDIR}/git"
 
 ROS_BUILD_TYPE = "ament_cmake"
 

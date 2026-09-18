@@ -12,7 +12,7 @@ PV = "1.7.0+git${SRCPV}"
 SRCREV = "361e8d1cfe0c6c36d30b39f1b61302ece5507320"
 SRC_URI = "git://github.com/google/benchmark;branch=main;protocol=https"
 
-S = "${WORKDIR}/git"
+S = "${UNPACKDIR}/git"
 
 # Needs gtest
 EXTRA_OECMAKE += "-DBENCHMARK_ENABLE_GTEST_TESTS=OFF -DBENCHMARK_ENABLE_TESTING=OFF"

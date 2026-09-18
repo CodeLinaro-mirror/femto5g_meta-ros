@@ -55,7 +55,7 @@ RDEPENDS:${PN} += "${ROS_EXEC_DEPENDS}"
 ROS_BRANCH ?= "branch=release/humble/ublox_dgnss"
 SRC_URI = "git://github.com/aussierobots/ublox_dgnss-release;${ROS_BRANCH};protocol=https"
 SRCREV = "e44182a4ed03c0d9945e02c0db20da63b393cdb7"
-S = "${WORKDIR}/git"
+S = "${UNPACKDIR}/git"
 
 ROS_BUILD_TYPE = "ament_cmake"
 

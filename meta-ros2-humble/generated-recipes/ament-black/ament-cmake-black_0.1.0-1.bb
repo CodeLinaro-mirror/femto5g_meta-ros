@@ -51,7 +51,7 @@ RDEPENDS:${PN} += "${ROS_EXEC_DEPENDS}"
 ROS_BRANCH ?= "branch=release/humble/ament_cmake_black"
 SRC_URI = "git://github.com/Timple/ament_black-release;${ROS_BRANCH};protocol=https"
 SRCREV = "4201097967a938e8636aa64c0dde6ab6f7f3eac2"
-S = "${WORKDIR}/git"
+S = "${UNPACKDIR}/git"
 
 ROS_BUILD_TYPE = "ament_cmake"
 
